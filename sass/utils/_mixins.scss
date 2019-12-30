@@ -1,0 +1,3 @@
+@mixin font-size($font) {
+	font-size: #{$font} !important;
+}

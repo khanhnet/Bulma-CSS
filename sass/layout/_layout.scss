@@ -1,0 +1,114 @@
+.header {
+    text-align: center;
+    top: auto;
+    margin: 3em auto;
+}
+.sidebar {
+    background: $bg-sidebar;
+    @extend .has-text-white;
+}
+.brand-tagline {
+    color: $brand-tagline;
+}
+
+.nav-list {
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.nav-item a {
+    background: transparent;
+    border: 2px solid rgb(176, 202, 219);
+    @extend .has-text-white;
+    margin-top: 1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    @include font-size(85%);
+}
+.nav-item a:hover,
+.nav-item a:focus {
+    border: 2px solid rgb(61, 146, 201);
+    text-decoration: none;
+}
+.button{
+    padding: .5em 1em;
+    margin-top: 1em;
+}
+.content-subhead {
+    text-transform: uppercase;
+    color: #aaa;
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    @include font-size(80%);
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    margin-bottom: 2em;
+}
+.content {
+    padding: 2em 2em 0;
+}
+.post {
+    padding-bottom: 3em;
+    &-title {
+        @include font-size(2em);
+        color: #222;
+        margin-bottom: 0.2em;
+    }
+    &-avatar {
+        border-radius: 50px;
+        float: right;
+        margin-left: 1em;
+    }
+    &-description {
+        font-family: Georgia, "Cambria", serif;
+        color: #444;
+        line-height: 1.8em;
+    }
+    &-meta {
+        color: #999;
+        @include font-size(90%);
+    }
+    &-images {
+        margin: 1em 0;
+    }
+    &-image-meta {
+        margin-top: -2.5em;
+        margin-left: 1em;
+        @extend .has-text-white;
+        text-shadow: 0 1px 1px #333;
+    }
+}
+.footer {
+    padding: 1em 0;
+    & a {
+        color: #ccc;
+        @include font-size(80%);
+    }
+}
+
+.tabs ul{
+    border: none;
+}
+@include tablet {
+    .content {
+        padding: 2em 3em 0;
+        margin-left: 25%;
+    }
+
+    .header {
+        margin: 80% 2em 0;
+        text-align: right;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+    .tablet-tabs ul {
+        justify-content: center;
+    }
+}

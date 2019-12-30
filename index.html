@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bulma css-Blog</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="columns is-tablet is-family-sans-serif">
+    <div class="sidebar column is-one-quarter">
+      <div class="header">
+        <h1 class="is-marginless is-uppercase has-text-weight-medium">A Sample Blog</h1>
+        <h2 class="brand-tagline is-marginless has-text-weight-normal">Creating a blog layout using Pure</h2>
+
+        <nav class="nav">
+          <ul class="nav-list is-marginless is-paddingless">
+            <li class="nav-item">
+              <a class="button" href="#">Pure</a>
+            </li>
+            <li class="nav-item">
+              <a class="button" href="#">YUI Library</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="content column">
+      <div>
+        <!-- A wrapper for all the blog posts -->
+        <div class="posts">
+          <h1 class="content-subhead">Pinned Post</h1>
+
+          <!-- A single blog post -->
+          <section class="post">
+            <header class="post-header">
+              <img width="48" height="48" alt="Tilo Mitra&#x27;s avatar" class="post-avatar" src="../images/1.png">
+
+              <h2 class="title is-3">Introducing Pure</h2>
+
+              <p class="post-meta is-marginless ">
+                By <a href="#">Tilo Mitra</a> under <a class="tag is-success is-radiusless" href="#">CSS</a> <a class="tag is-link is-radiusless" href="#">Pure</a>
+              </p>
+            </header>
+
+            <div class="post-description">
+              <p>
+                Yesterday at CSSConf, we launched Pure – a new CSS library. Phew! Here are the <a href="https://speakerdeck.com/tilomitra/pure-bliss">slides from the presentation</a>. Although it looks pretty minimalist, we’ve been working on Pure for several months. After many iterations, we have released Pure as a set of small, responsive, CSS modules that you can use in every web project.
+              </p>
+            </div>
+          </section>
+        </div>
+
+        <div class="posts">
+          <h1 class="content-subhead">Recent Posts</h1>
+
+          <section class="post">
+            <header class="post-header">
+              <img width="48" height="48" alt="Eric Ferraiuolo&#x27;s avatar" class="post-avatar" src="../images/2.png">
+
+              <h2 class="title is-3">Everything You Need to Know About Grunt</h2>
+
+              <p class="post-meta is-marginless">
+                By <a href="#">Eric Ferraiuolo</a> under <a class="tag is-danger is-radiusless" href="#">JavaScript</a>
+              </p>
+            </header>
+
+            <div class="post-description">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>
+            </div>
+          </section>
+
+          <section class="post">
+            <header class="post-header">
+              <img width="48" height="48" alt="Reid Burke&#x27;s avatar" class="post-avatar" src="../images/3.png">
+
+              <h2 class="title is-3">Photos from CSSConf and JSConf</h2>
+
+              <p class="post-meta is-marginless">
+                By <a href="#">Reid Burke</a> under <a class="tag is-light is-radiusless" href="#">Uncategorized</a>
+              </p>
+            </header>
+
+            <div class="post-description">
+              <div class="post-images columns">
+                <div class="column is-paddingless">
+                  <a href="#">
+                    <img alt="Photo of someone working poolside at a resort"
+                    class="pure-img-responsive"
+                    src="../images/img1.jpg">
+                  </a>
+
+                  <div class="post-image-meta">
+                    <h3>CSSConf Photos</h3>
+                  </div>
+                </div>
+
+                <div class="column is-paddingless">
+                  <a href="#">
+                    <img alt="Photo of the sunset on the beach"
+                    class="pure-img-responsive"
+                    src="../images/img2.jpg">
+                  </a>
+
+                  <div class="post-image-meta">
+                    <h3>JSConf Photos</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="post">
+            <header class="post-header">
+              <img width="48" height="48" alt="Andrew Wooldridge&#x27;s avatar" class="post-avatar" src="../images/4.png">
+
+              <h2 class="title is-3">YUI 3.10.2 Released</h2>
+
+              <p class="post-meta is-marginless">
+                By <a href="#">Andrew Wooldridge</a> under <a class="tag is-yui is-radiusless" href="#">YUI</a>
+              </p>
+            </header>
+
+            <div class="post-description">
+              <p>
+                We are happy to announce the release of YUI 3.10.2! You can find it now on the Yahoo! CDN, download it directly, or pull it in via npm. We’ve also updated the YUI Library website with the latest documentation.
+              </p>
+            </div>
+          </section>
+        </div>
+
+        <div class="footer">
+          <div class="tabs tablet-tabs">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">GitHub</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+.tag:not(body) {
+	&.is-yui {
+		background-color: $violet;
+		color: $white;
+	}
+}
