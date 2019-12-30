@@ -12,10 +12,10 @@
   },
   "scripts": {
     "predeploy": "npm run start",
-    "deploy": "gh-pages -d public",
+    "deploy": "gh-pages -d css",
     "css-build": "node-sass --omit-source-map-url sass/style.scss css/style.css",
     "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch"
+    "start": "npm run css-build"
   },
   "author": "",
   "license": "ISC"
